@@ -1,0 +1,40 @@
+<? php
+session_start();
+
+if (!isset($_SESSION['USER']) && isset($_COOKIE['USER']))
+$_SESSION['USER'] = $_COOKIE['USER'];
+$user = $_SESSION['USER'];
+$pass = $_SESSION['PASS'];
+
+?>
+if ($pass == null)
+{ ?>
+
+<html>
+<head>
+  <title>Домашнее задание к лекции 2.2 «Обработка форм»</title>
+</head>
+
+<body>
+  <? if ($pass == null)
+  { ?>
+  <h4>Пожалуйста, выберите тест:</h4>
+    <ul>
+      <li><a href="test1.html">Тест1</a></li>
+      <li><a href="test2.html">Тест2</a></li>
+      <li><a href="test3.html">Тест3</a></li>
+    </ul>
+    <? } else {
+      echo "<a href="test4.html">Создать тест</a>";
+      if ($_GET ['test4.html']) {
+        http_response_code (403);
+        echo 'Доступ запрещен!';
+        exit 1;
+      }?>
+      <ul>
+        <li><a href="test1.html">Тест1</a></li>
+        <li><a href="test2.html">Тест2</a></li>
+        <li><a href="test3.html">Тест3</a></li>
+      </ul>
+  </body>
+</html>
