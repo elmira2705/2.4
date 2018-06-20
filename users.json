@@ -1,0 +1,10 @@
+[
+  {
+    "name":"Эльмира",
+    "is_admin": true
+  },
+  {
+    "name":"Динара",
+    "is_admin": false
+  }
+]
