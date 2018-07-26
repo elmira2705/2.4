@@ -1,0 +1,26 @@
+{
+  "testName": "Тест номер 3",
+  "questions": [
+    {"question": "Чему равен 1 твип?",
+      "answers": [
+        {"answer": "1/20 пункта", "isRight": "true"},
+        {"answer": "12 пунктам", "isRight": "false"},
+        {"answer": "6 пунктов", "isRight": "false"}
+      ]
+    },
+    {"question": "Чему равен 1 цицеро?",
+      "answers": [
+        {"answer": "1/20 пункта", "isRight": "false"},
+        {"answer": "12 пунктам", "isRight": "true"},
+        {"answer": "6 пунктов", "isRight": "false"}
+      ]
+    },
+    {"question": "Чему равен 1 нонпарель?",
+      "answers": [
+        {"answer": "1/20 пункта", "isRight": "false"},
+        {"answer": "12 пунктам", "isRight": "false"},
+        {"answer": "6 пунктов", "isRight": "true"}
+      ]
+    }
+  ]
+}

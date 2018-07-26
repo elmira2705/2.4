@@ -1,0 +1,26 @@
+{
+  "testName": "Тест номер 1",
+  "questions": [
+    {"question": "Чему равен 1 лье?",
+      "answers": [
+        {"answer": "4,828032 км", "isRight": "true"},
+        {"answer": "3,609344 км", "isRight": "false"},
+        {"answer": "1,609344 км", "isRight": "false"}
+      ]
+    },
+    {"question": "Чему равна 1 миля?",
+      "answers": [
+        {"answer": "4,828032 км", "isRight": "false"},
+        {"answer": "3,609344 км", "isRight": "false"},
+        {"answer": "1,609344 км", "isRight": "true"}
+      ]
+    },
+    {"question": "Чему равен 1 ярд?",
+      "answers": [
+        {"answer": "91,44 см", "isRight": "true"},
+        {"answer": "60,28 см", "isRight": "false"},
+        {"answer": "30,48 см", "isRight": "false"}
+      ]
+    }
+  ]
+}

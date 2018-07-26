@@ -1,0 +1,26 @@
+{
+  "testName": "Тест номер 2",
+  "questions": [
+    {"question": "Чему равна 1 пядь?",
+      "answers": [
+        {"answer": "17,78 см", "isRight": "true"},
+        {"answer": "53,34 см", "isRight": "false"},
+        {"answer": "71,12 см", "isRight": "false"}
+      ]
+    },
+    {"question": "Чему равен 1 локоть?",
+      "answers": [
+        {"answer": "17,78 см", "isRight": "false"},
+        {"answer": "45,34 см", "isRight": "true"},
+        {"answer": "71,12 см", "isRight": "false"}
+      ]
+    },
+    {"question": "Чему равен 1 аршин?",
+      "answers": [
+        {"answer": "17,78 см", "isRight": "false"},
+        {"answer": "53,34 см", "isRight": "false"},
+        {"answer": "71,12 см", "isRight": "true"}
+      ]
+    }
+  ]
+}
